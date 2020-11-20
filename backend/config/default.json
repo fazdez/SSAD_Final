@@ -1,7 +1,7 @@
 {
   "name": "SSAD Project",
   "db": {
-    "uri": "mongodb://localhost/ssadProject"
+    "uri": "mongodb+srv://fazirul001:rWvpw73EvrPjnr6@ssadproject.58svf.mongodb.net/development?retryWrites=true&w=majority"
   },
   "jwtPrivateKey": "Tobedetermined"
 }
