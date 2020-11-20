@@ -92,13 +92,8 @@ export default function SignIn() {
             lastSprite: { str: res.data.sprite },
           })
         );
-        let user = {};
-        if (account.userName === "admin" || account.userName === "teacher") {
-          user = account;
-        } else {
-          user = getCurrentUser();
-        }
-        // let user = getCurrentUser();
+
+        let user = getCurrentUser();
 
         console.log(user);
         if (user.isAdmin) {
