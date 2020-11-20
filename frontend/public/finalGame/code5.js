@@ -189,7 +189,7 @@ gdjs.World1Level1Code.mapOfGDgdjs_46World1Level1Code_46GDWarriorType1Objects1Obj
 gdjs.World1Level1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.World1Level1Code.conditionTrue_1 = gdjs.World1Level1Code.condition0IsTrue_0;
-gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(23009732);
+gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13990028);
 }
 }if (gdjs.World1Level1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.World1Level1Code.GDCheckpointW1L1Objects1, gdjs.World1Level1Code.GDCheckpointW1L1Objects2);
@@ -381,7 +381,7 @@ for(var i = 0, len = gdjs.World1Level1Code.GDGhostObjects1.length ;i < len;++i) 
 gdjs.World1Level1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.World1Level1Code.conditionTrue_1 = gdjs.World1Level1Code.condition0IsTrue_0;
-gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18961700);
+gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13884164);
 }
 }if (gdjs.World1Level1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.World1Level1Code.GDCoinCounterObjects2);
@@ -628,7 +628,7 @@ gdjs.World1Level1Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 gdjs.World1Level1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.World1Level1Code.conditionTrue_1 = gdjs.World1Level1Code.condition0IsTrue_0;
-gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13501484);
+gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17704332);
 }
 }if (gdjs.World1Level1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.World1Level1Code.GDCoinCounterObjects2);
@@ -677,7 +677,7 @@ for(var i = 0, len = gdjs.World1Level1Code.GDWarriorType4Objects2.length ;i < le
 gdjs.World1Level1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.World1Level1Code.conditionTrue_1 = gdjs.World1Level1Code.condition0IsTrue_0;
-gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25641492);
+gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17740236);
 }
 }if (gdjs.World1Level1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.World1Level1Code.GDCoinCounterObjects1);
@@ -717,7 +717,7 @@ for(var i = 0, len = gdjs.World1Level1Code.GDWarriorType4Objects1.length ;i < le
 gdjs.World1Level1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.World1Level1Code.conditionTrue_1 = gdjs.World1Level1Code.condition0IsTrue_0;
-gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25644860);
+gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17781508);
 }
 }if (gdjs.World1Level1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.World1Level1Code.GDCoinCounterObjects1);
@@ -806,7 +806,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.World1Level1Code.GDPlayer
 gdjs.World1Level1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.World1Level1Code.conditionTrue_1 = gdjs.World1Level1Code.condition0IsTrue_0;
-gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25660852);
+gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17359364);
 }
 }if (gdjs.World1Level1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.World1Level1Code.GDCoinCounterObjects1);
@@ -1829,7 +1829,7 @@ gdjs.World1Level1Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.World1Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level1Code.conditionTrue_1 = gdjs.World1Level1Code.condition1IsTrue_0;
-gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507516);
+gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17861332);
 }
 }}
 if (gdjs.World1Level1Code.condition1IsTrue_0.val) {
@@ -1850,7 +1850,7 @@ gdjs.World1Level1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.World1Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level1Code.conditionTrue_1 = gdjs.World1Level1Code.condition1IsTrue_0;
-gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507908);
+gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17860628);
 }
 }}
 if (gdjs.World1Level1Code.condition1IsTrue_0.val) {
@@ -1890,7 +1890,7 @@ gdjs.World1Level1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.World1Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level1Code.conditionTrue_1 = gdjs.World1Level1Code.condition1IsTrue_0;
-gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21510524);
+gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17396036);
 }
 }}
 if (gdjs.World1Level1Code.condition1IsTrue_0.val) {
@@ -2129,7 +2129,7 @@ gdjs.World1Level1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColl
 }if ( gdjs.World1Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level1Code.conditionTrue_1 = gdjs.World1Level1Code.condition1IsTrue_0;
-gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13514540);
+gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17725740);
 }
 }}
 if (gdjs.World1Level1Code.condition1IsTrue_0.val) {
@@ -2216,7 +2216,7 @@ gdjs.World1Level1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColl
 }if ( gdjs.World1Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level1Code.conditionTrue_1 = gdjs.World1Level1Code.condition1IsTrue_0;
-gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13503908);
+gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17736684);
 }
 }}
 if (gdjs.World1Level1Code.condition1IsTrue_0.val) {
@@ -2724,7 +2724,7 @@ for(var i = 0, k = 0, l = gdjs.World1Level1Code.GDCoinCounterObjects1.length;i<l
 gdjs.World1Level1Code.GDCoinCounterObjects1.length = k;}if ( gdjs.World1Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level1Code.conditionTrue_1 = gdjs.World1Level1Code.condition1IsTrue_0;
-gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25663620);
+gdjs.World1Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17411716);
 }
 }}
 if (gdjs.World1Level1Code.condition1IsTrue_0.val) {

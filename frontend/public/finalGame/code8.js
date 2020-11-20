@@ -544,7 +544,7 @@ gdjs.DesertLevel2Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 gdjs.DesertLevel2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition0IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13501484);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17704332);
 }
 }if (gdjs.DesertLevel2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.DesertLevel2Code.GDCoinCounterObjects2);
@@ -593,7 +593,7 @@ for(var i = 0, len = gdjs.DesertLevel2Code.GDWarriorType4Objects2.length ;i < le
 gdjs.DesertLevel2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition0IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25641492);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17740236);
 }
 }if (gdjs.DesertLevel2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.DesertLevel2Code.GDCoinCounterObjects1);
@@ -633,7 +633,7 @@ for(var i = 0, len = gdjs.DesertLevel2Code.GDWarriorType4Objects1.length ;i < le
 gdjs.DesertLevel2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition0IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25644860);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17781508);
 }
 }if (gdjs.DesertLevel2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.DesertLevel2Code.GDCoinCounterObjects1);
@@ -722,7 +722,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.DesertLevel2Code.GDPlayer
 gdjs.DesertLevel2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition0IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25660852);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17359364);
 }
 }if (gdjs.DesertLevel2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.DesertLevel2Code.GDCoinCounterObjects1);
@@ -838,7 +838,7 @@ for(var i = 0, len = gdjs.DesertLevel2Code.GDFlyObjects1.length ;i < len;++i) {
 gdjs.DesertLevel2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition0IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18852636);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17356172);
 }
 }if (gdjs.DesertLevel2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.DesertLevel2Code.GDCheckpointW1L1Objects1, gdjs.DesertLevel2Code.GDCheckpointW1L1Objects2);
@@ -929,7 +929,7 @@ for(var i = 0, len = gdjs.DesertLevel2Code.GDWarriorType4Objects1.length ;i < le
 gdjs.DesertLevel2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition0IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(24876820);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17321708);
 }
 }if (gdjs.DesertLevel2Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "arabic_battle_music_the_great_fortress_7557124497401600219.mp3", 1, false, 100, 1);
@@ -1721,7 +1721,7 @@ gdjs.DesertLevel2Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.DesertLevel2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition1IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507516);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17861332);
 }
 }}
 if (gdjs.DesertLevel2Code.condition1IsTrue_0.val) {
@@ -1742,7 +1742,7 @@ gdjs.DesertLevel2Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.DesertLevel2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition1IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507908);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17860628);
 }
 }}
 if (gdjs.DesertLevel2Code.condition1IsTrue_0.val) {
@@ -1782,7 +1782,7 @@ gdjs.DesertLevel2Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.DesertLevel2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition1IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21510524);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17396036);
 }
 }}
 if (gdjs.DesertLevel2Code.condition1IsTrue_0.val) {
@@ -2021,7 +2021,7 @@ gdjs.DesertLevel2Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColl
 }if ( gdjs.DesertLevel2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition1IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13514540);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17725740);
 }
 }}
 if (gdjs.DesertLevel2Code.condition1IsTrue_0.val) {
@@ -2108,7 +2108,7 @@ gdjs.DesertLevel2Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColl
 }if ( gdjs.DesertLevel2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition1IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13503908);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17736684);
 }
 }}
 if (gdjs.DesertLevel2Code.condition1IsTrue_0.val) {
@@ -2618,7 +2618,7 @@ for(var i = 0, k = 0, l = gdjs.DesertLevel2Code.GDCoinCounterObjects1.length;i<l
 gdjs.DesertLevel2Code.GDCoinCounterObjects1.length = k;}if ( gdjs.DesertLevel2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition1IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25663620);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17411716);
 }
 }}
 if (gdjs.DesertLevel2Code.condition1IsTrue_0.val) {
@@ -2692,7 +2692,7 @@ gdjs.DesertLevel2Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.DesertLevel2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition1IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507517);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17861333);
 }
 }}
 if (gdjs.DesertLevel2Code.condition1IsTrue_0.val) {
@@ -2713,7 +2713,7 @@ gdjs.DesertLevel2Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.DesertLevel2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition1IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507909);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17860629);
 }
 }}
 if (gdjs.DesertLevel2Code.condition1IsTrue_0.val) {
@@ -2753,7 +2753,7 @@ gdjs.DesertLevel2Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.DesertLevel2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel2Code.conditionTrue_1 = gdjs.DesertLevel2Code.condition1IsTrue_0;
-gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21510525);
+gdjs.DesertLevel2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17396037);
 }
 }}
 if (gdjs.DesertLevel2Code.condition1IsTrue_0.val) {

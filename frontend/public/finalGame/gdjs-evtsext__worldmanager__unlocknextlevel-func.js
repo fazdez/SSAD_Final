@@ -383,7 +383,7 @@ gdjs.evtsExt__WorldManager__UnlockNextLevel.condition0IsTrue_0.val = gdjs.evtToo
 }if ( gdjs.evtsExt__WorldManager__UnlockNextLevel.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__WorldManager__UnlockNextLevel.conditionTrue_1 = gdjs.evtsExt__WorldManager__UnlockNextLevel.condition1IsTrue_0;
-gdjs.evtsExt__WorldManager__UnlockNextLevel.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(26427300);
+gdjs.evtsExt__WorldManager__UnlockNextLevel.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(7606044);
 }
 }}
 if (gdjs.evtsExt__WorldManager__UnlockNextLevel.condition1IsTrue_0.val) {
@@ -405,7 +405,7 @@ gdjs.evtsExt__WorldManager__UnlockNextLevel.condition0IsTrue_0.val = gdjs.evtToo
 }if ( gdjs.evtsExt__WorldManager__UnlockNextLevel.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__WorldManager__UnlockNextLevel.conditionTrue_1 = gdjs.evtsExt__WorldManager__UnlockNextLevel.condition1IsTrue_0;
-gdjs.evtsExt__WorldManager__UnlockNextLevel.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(26428108);
+gdjs.evtsExt__WorldManager__UnlockNextLevel.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(7606852);
 }
 }}
 if (gdjs.evtsExt__WorldManager__UnlockNextLevel.condition1IsTrue_0.val) {
@@ -427,7 +427,7 @@ gdjs.evtsExt__WorldManager__UnlockNextLevel.condition0IsTrue_0.val = gdjs.evtToo
 }if ( gdjs.evtsExt__WorldManager__UnlockNextLevel.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__WorldManager__UnlockNextLevel.conditionTrue_1 = gdjs.evtsExt__WorldManager__UnlockNextLevel.condition1IsTrue_0;
-gdjs.evtsExt__WorldManager__UnlockNextLevel.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(26409292);
+gdjs.evtsExt__WorldManager__UnlockNextLevel.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(7612476);
 }
 }}
 if (gdjs.evtsExt__WorldManager__UnlockNextLevel.condition1IsTrue_0.val) {

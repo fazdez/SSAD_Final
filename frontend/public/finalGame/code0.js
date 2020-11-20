@@ -283,7 +283,7 @@ gdjs.copyArray(runtimeScene.getObjects("Main_Background"), gdjs.StartPageGameCod
 gdjs.StartPageGameCode.condition0IsTrue_0.val = false;
 {
 {gdjs.StartPageGameCode.conditionTrue_1 = gdjs.StartPageGameCode.condition0IsTrue_0;
-gdjs.StartPageGameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18762028);
+gdjs.StartPageGameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13793900);
 }
 }if (gdjs.StartPageGameCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\08. Village (No Intro).mp3", 1, true, 100, 1);

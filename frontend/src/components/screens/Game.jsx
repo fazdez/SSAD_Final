@@ -31,7 +31,7 @@ export default function Home() {
         <iframe
           title="maingame"
           style={{ width: "50%", height: "500px", margin: "50px" }}
-          src="./finalExport8/index.html"
+          src="./finalGame/index.html"
         ></iframe>
       </div>
     </Fragment>

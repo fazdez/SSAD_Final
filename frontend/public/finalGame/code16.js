@@ -146,13 +146,15 @@ gdjs.EditorMenuCode.conditionTrue_0 = {val:false};
 gdjs.EditorMenuCode.condition0IsTrue_0 = {val:false};
 gdjs.EditorMenuCode.condition1IsTrue_0 = {val:false};
 gdjs.EditorMenuCode.condition2IsTrue_0 = {val:false};
+gdjs.EditorMenuCode.condition3IsTrue_0 = {val:false};
 gdjs.EditorMenuCode.conditionTrue_1 = {val:false};
 gdjs.EditorMenuCode.condition0IsTrue_1 = {val:false};
 gdjs.EditorMenuCode.condition1IsTrue_1 = {val:false};
 gdjs.EditorMenuCode.condition2IsTrue_1 = {val:false};
+gdjs.EditorMenuCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.EditorMenuCode.mapOfGDgdjs_46EditorMenuCode_46GDPlayGameObjects2Objects = Hashtable.newFrom({"PlayGame": gdjs.EditorMenuCode.GDPlayGameObjects2});gdjs.EditorMenuCode.eventsList0 = function(runtimeScene) {
+gdjs.EditorMenuCode.eventsList0 = function(runtimeScene) {
 
 };gdjs.EditorMenuCode.eventsList1 = function(runtimeScene) {
 
@@ -313,8 +315,16 @@ gdjs.EditorMenuCode.eventsList10(runtimeScene);} //Subevents end.
 {
 
 
+
+}
+
+
+{
+
+
 {
 {runtimeScene.getVariables().get("counter").setNumber(1);
+}{gdjs.evtTools.storage.writeStringInJSONFile("play", "Tile1PositionX", gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().get("loadedGame").getChild("Tile1PositionX")));
 }
 { //Subevents
 gdjs.EditorMenuCode.eventsList1(runtimeScene);} //End of subevents
@@ -406,11 +416,11 @@ gdjs.EditorMenuCode.eventsList11(runtimeScene);} //End of subevents
 
 gdjs.EditorMenuCode.condition0IsTrue_0.val = false;
 {
-gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().get("error")) == "User does not have any custom level.";
+gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("error")) == 500;
 }if (gdjs.EditorMenuCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("userNameEntry"), gdjs.EditorMenuCode.GDuserNameEntryObjects3);
-{for(var i = 0, len = gdjs.EditorMenuCode.GDuserNameEntryObjects3.length ;i < len;++i) {
-    gdjs.EditorMenuCode.GDuserNameEntryObjects3[i].setString("Invalid username!");
+gdjs.copyArray(runtimeScene.getObjects("TextDesc"), gdjs.EditorMenuCode.GDTextDescObjects3);
+{for(var i = 0, len = gdjs.EditorMenuCode.GDTextDescObjects3.length ;i < len;++i) {
+    gdjs.EditorMenuCode.GDTextDescObjects3[i].setString("Invalid username!");
 }
 }}
 
@@ -420,18 +430,15 @@ gdjs.copyArray(runtimeScene.getObjects("userNameEntry"), gdjs.EditorMenuCode.GDu
 {
 
 
-
-}
-
-
-{
-
-
 gdjs.EditorMenuCode.condition0IsTrue_0.val = false;
 {
-gdjs.EditorMenuCode.condition0IsTrue_0.val = !(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().get("error")) == "User does not have any custom level.");
+gdjs.EditorMenuCode.condition0IsTrue_0.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("error")) == 500);
 }if (gdjs.EditorMenuCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.network.jsonToVariableStructure(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().get("error")), runtimeScene.getVariables().get("loadedGame"));
+gdjs.copyArray(runtimeScene.getObjects("TextDesc"), gdjs.EditorMenuCode.GDTextDescObjects2);
+{gdjs.evtTools.network.jsonToVariableStructure(gdjs.evtTools.common.getVariableString(runtimeScene.getVariables().get("result")), runtimeScene.getVariables().get("loadedGame"));
+}{for(var i = 0, len = gdjs.EditorMenuCode.GDTextDescObjects2.length ;i < len;++i) {
+    gdjs.EditorMenuCode.GDTextDescObjects2[i].setString("Found user!");
+}
 }
 { //Subevents
 gdjs.EditorMenuCode.eventsList12(runtimeScene);} //End of subevents
@@ -440,7 +447,7 @@ gdjs.EditorMenuCode.eventsList12(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.EditorMenuCode.eventsList14 = function(runtimeScene) {
+};gdjs.EditorMenuCode.mapOfGDgdjs_46EditorMenuCode_46GDPlayGameObjects2Objects = Hashtable.newFrom({"PlayGame": gdjs.EditorMenuCode.GDPlayGameObjects2});gdjs.EditorMenuCode.eventsList14 = function(runtimeScene) {
 
 {
 
@@ -456,9 +463,9 @@ for(var i = 0, k = 0, l = gdjs.EditorMenuCode.GDfriendsUsernameObjects3.length;i
     }
 }
 gdjs.EditorMenuCode.GDfriendsUsernameObjects3.length = k;}if (gdjs.EditorMenuCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("userNameEntry"), gdjs.EditorMenuCode.GDuserNameEntryObjects3);
-{for(var i = 0, len = gdjs.EditorMenuCode.GDuserNameEntryObjects3.length ;i < len;++i) {
-    gdjs.EditorMenuCode.GDuserNameEntryObjects3[i].setString("Please enter a username!");
+gdjs.copyArray(runtimeScene.getObjects("TextDesc"), gdjs.EditorMenuCode.GDTextDescObjects3);
+{for(var i = 0, len = gdjs.EditorMenuCode.GDTextDescObjects3.length ;i < len;++i) {
+    gdjs.EditorMenuCode.GDTextDescObjects3[i].setString("Please enter a username!");
 }
 }}
 
@@ -479,12 +486,16 @@ for(var i = 0, k = 0, l = gdjs.EditorMenuCode.GDfriendsUsernameObjects2.length;i
     }
 }
 gdjs.EditorMenuCode.GDfriendsUsernameObjects2.length = k;}if (gdjs.EditorMenuCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("TextDesc"), gdjs.EditorMenuCode.GDTextDescObjects2);
 /* Reuse gdjs.EditorMenuCode.GDfriendsUsernameObjects2 */
-{gdjs.evtTools.network.sendAsyncRequest("http://localhost:3001/api/customlevel/" + (( gdjs.EditorMenuCode.GDfriendsUsernameObjects2.length === 0 ) ? "" :gdjs.EditorMenuCode.GDfriendsUsernameObjects2[0].getString()), "", "GET", "application/json", runtimeScene.getVariables().get("error"), runtimeScene.getVariables().get("error"));
+{gdjs.evtTools.storage.clearJSONFile("play");
+}{gdjs.evtTools.network.sendAsyncRequest("http://localhost:3001/api/customlevel/" + (( gdjs.EditorMenuCode.GDfriendsUsernameObjects2.length === 0 ) ? "" :gdjs.EditorMenuCode.GDfriendsUsernameObjects2[0].getString()), "", "GET", "application/json", runtimeScene.getVariables().get("result"), runtimeScene.getVariables().get("error"));
+}{for(var i = 0, len = gdjs.EditorMenuCode.GDTextDescObjects2.length ;i < len;++i) {
+    gdjs.EditorMenuCode.GDTextDescObjects2[i].setString("Checking username, please wait...");
 }
-{ //Subevents
-gdjs.EditorMenuCode.eventsList13(runtimeScene);} //End of subevents
-}
+}{runtimeScene.getVariables().get("gameon").setNumber(1);
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "waitRequest");
+}}
 
 }
 
@@ -497,7 +508,7 @@ gdjs.EditorMenuCode.eventsList13(runtimeScene);} //End of subevents
 gdjs.EditorMenuCode.condition0IsTrue_0.val = false;
 {
 {gdjs.EditorMenuCode.conditionTrue_1 = gdjs.EditorMenuCode.condition0IsTrue_0;
-gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(22178356);
+gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13377628);
 }
 }if (gdjs.EditorMenuCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.EditorMenuCode.GDPlayGameObjects2, gdjs.EditorMenuCode.GDPlayGameObjects3);
@@ -528,7 +539,9 @@ gdjs.EditorMenuCode.condition0IsTrue_0.val = false;
 {
 gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }if (gdjs.EditorMenuCode.condition0IsTrue_0.val) {
-
+{runtimeScene.getVariables().get("error").setNumber(0);
+}{runtimeScene.getVariables().get("result").setNumber(0);
+}
 { //Subevents
 gdjs.EditorMenuCode.eventsList14(runtimeScene);} //End of subevents
 }
@@ -544,7 +557,7 @@ gdjs.EditorMenuCode.eventsList14(runtimeScene);} //End of subevents
 gdjs.EditorMenuCode.condition0IsTrue_0.val = false;
 {
 {gdjs.EditorMenuCode.conditionTrue_1 = gdjs.EditorMenuCode.condition0IsTrue_0;
-gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25221804);
+gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11983076);
 }
 }if (gdjs.EditorMenuCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.EditorMenuCode.GDCreateLevelObjects2, gdjs.EditorMenuCode.GDCreateLevelObjects3);
@@ -583,7 +596,7 @@ gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRe
 gdjs.EditorMenuCode.condition0IsTrue_0.val = false;
 {
 {gdjs.EditorMenuCode.conditionTrue_1 = gdjs.EditorMenuCode.condition0IsTrue_0;
-gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25224876);
+gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13507636);
 }
 }if (gdjs.EditorMenuCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.EditorMenuCode.GDExportLevelObjects2, gdjs.EditorMenuCode.GDExportLevelObjects3);
@@ -622,7 +635,7 @@ gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRe
 gdjs.EditorMenuCode.condition0IsTrue_0.val = false;
 {
 {gdjs.EditorMenuCode.conditionTrue_1 = gdjs.EditorMenuCode.condition0IsTrue_0;
-gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25233788);
+gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13020268);
 }
 }if (gdjs.EditorMenuCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.EditorMenuCode.GDLoadLevelObjects2, gdjs.EditorMenuCode.GDLoadLevelObjects3);
@@ -661,7 +674,7 @@ gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRe
 gdjs.EditorMenuCode.condition0IsTrue_0.val = false;
 {
 {gdjs.EditorMenuCode.conditionTrue_1 = gdjs.EditorMenuCode.condition0IsTrue_0;
-gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25235420);
+gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12322836);
 }
 }if (gdjs.EditorMenuCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.EditorMenuCode.GDBackTextObjects2, gdjs.EditorMenuCode.GDBackTextObjects3);
@@ -692,6 +705,37 @@ gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRe
 
 
 };gdjs.EditorMenuCode.mapOfGDgdjs_46EditorMenuCode_46GDBackTextObjects1Objects = Hashtable.newFrom({"BackText": gdjs.EditorMenuCode.GDBackTextObjects1});gdjs.EditorMenuCode.eventsList20 = function(runtimeScene) {
+
+{
+
+
+gdjs.EditorMenuCode.condition0IsTrue_0.val = false;
+gdjs.EditorMenuCode.condition1IsTrue_0.val = false;
+gdjs.EditorMenuCode.condition2IsTrue_0.val = false;
+{
+gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("gameon")) == 1;
+}if ( gdjs.EditorMenuCode.condition0IsTrue_0.val ) {
+{
+gdjs.EditorMenuCode.condition1IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 1, "waitRequest");
+}if ( gdjs.EditorMenuCode.condition1IsTrue_0.val ) {
+{
+{gdjs.EditorMenuCode.conditionTrue_1 = gdjs.EditorMenuCode.condition2IsTrue_0;
+gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12499300);
+}
+}}
+}
+if (gdjs.EditorMenuCode.condition2IsTrue_0.val) {
+{gdjs.evtTools.storage.writeNumberInJSONFile("play", "Error", gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("error")));
+}{gdjs.evtTools.storage.writeNumberInJSONFile("play", "Result", gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("result")));
+}{runtimeScene.getVariables().get("gameon").setNumber(0);
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "waitRequest");
+}
+{ //Subevents
+gdjs.EditorMenuCode.eventsList13(runtimeScene);} //End of subevents
+}
+
+}
+
 
 {
 
@@ -752,7 +796,7 @@ gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.EditorMenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.EditorMenuCode.conditionTrue_1 = gdjs.EditorMenuCode.condition1IsTrue_0;
-gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25227764);
+gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12494868);
 }
 }}
 if (gdjs.EditorMenuCode.condition1IsTrue_0.val) {
@@ -776,7 +820,7 @@ gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.EditorMenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.EditorMenuCode.conditionTrue_1 = gdjs.EditorMenuCode.condition1IsTrue_0;
-gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25229716);
+gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11993324);
 }
 }}
 if (gdjs.EditorMenuCode.condition1IsTrue_0.val) {
@@ -800,7 +844,7 @@ gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.EditorMenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.EditorMenuCode.conditionTrue_1 = gdjs.EditorMenuCode.condition1IsTrue_0;
-gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25231204);
+gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12821364);
 }
 }}
 if (gdjs.EditorMenuCode.condition1IsTrue_0.val) {
@@ -824,7 +868,7 @@ gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.EditorMenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.EditorMenuCode.conditionTrue_1 = gdjs.EditorMenuCode.condition1IsTrue_0;
-gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25232324);
+gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9344812);
 }
 }}
 if (gdjs.EditorMenuCode.condition1IsTrue_0.val) {
@@ -880,7 +924,7 @@ gdjs.EditorMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.EditorMenuCode.condition0IsTrue_0.val ) {
 {
 {gdjs.EditorMenuCode.conditionTrue_1 = gdjs.EditorMenuCode.condition1IsTrue_0;
-gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25230484);
+gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21277956);
 }
 }}
 if (gdjs.EditorMenuCode.condition1IsTrue_0.val) {
@@ -919,7 +963,7 @@ gdjs.copyArray(runtimeScene.getObjects("TextDesc"), gdjs.EditorMenuCode.GDTextDe
 gdjs.EditorMenuCode.condition0IsTrue_0.val = false;
 {
 {gdjs.EditorMenuCode.conditionTrue_1 = gdjs.EditorMenuCode.condition0IsTrue_0;
-gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10030660);
+gdjs.EditorMenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17150308);
 }
 }if (gdjs.EditorMenuCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\08. Village (No Intro).mp3", 1, true, 100, 1);

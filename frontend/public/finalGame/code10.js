@@ -258,7 +258,7 @@ for(var i = 0, len = gdjs.World1Level3Code.GDWarriorType4Objects1.length ;i < le
 gdjs.World1Level3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.World1Level3Code.conditionTrue_1 = gdjs.World1Level3Code.condition0IsTrue_0;
-gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12925796);
+gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17680972);
 }
 }if (gdjs.World1Level3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.World1Level3Code.GDCoinCounterObjects1);
@@ -291,7 +291,7 @@ for(var i = 0, k = 0, l = gdjs.World1Level3Code.GDDoorObjects2.length;i<l;++i) {
 gdjs.World1Level3Code.GDDoorObjects2.length = k;}if ( gdjs.World1Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level3Code.conditionTrue_1 = gdjs.World1Level3Code.condition1IsTrue_0;
-gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12930020);
+gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17685196);
 }
 }}
 if (gdjs.World1Level3Code.condition1IsTrue_0.val) {
@@ -513,7 +513,7 @@ gdjs.World1Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 gdjs.World1Level3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.World1Level3Code.conditionTrue_1 = gdjs.World1Level3Code.condition0IsTrue_0;
-gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13501484);
+gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17704332);
 }
 }if (gdjs.World1Level3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.World1Level3Code.GDCoinCounterObjects2);
@@ -562,7 +562,7 @@ for(var i = 0, len = gdjs.World1Level3Code.GDWarriorType4Objects2.length ;i < le
 gdjs.World1Level3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.World1Level3Code.conditionTrue_1 = gdjs.World1Level3Code.condition0IsTrue_0;
-gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25641492);
+gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17740236);
 }
 }if (gdjs.World1Level3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.World1Level3Code.GDCoinCounterObjects1);
@@ -602,7 +602,7 @@ for(var i = 0, len = gdjs.World1Level3Code.GDWarriorType4Objects1.length ;i < le
 gdjs.World1Level3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.World1Level3Code.conditionTrue_1 = gdjs.World1Level3Code.condition0IsTrue_0;
-gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25644860);
+gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17781508);
 }
 }if (gdjs.World1Level3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.World1Level3Code.GDCoinCounterObjects1);
@@ -691,7 +691,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.World1Level3Code.GDPlayer
 gdjs.World1Level3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.World1Level3Code.conditionTrue_1 = gdjs.World1Level3Code.condition0IsTrue_0;
-gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25660852);
+gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17359364);
 }
 }if (gdjs.World1Level3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.World1Level3Code.GDCoinCounterObjects1);
@@ -1820,7 +1820,7 @@ gdjs.World1Level3Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColl
 }if ( gdjs.World1Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level3Code.conditionTrue_1 = gdjs.World1Level3Code.condition1IsTrue_0;
-gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13514540);
+gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17725740);
 }
 }}
 if (gdjs.World1Level3Code.condition1IsTrue_0.val) {
@@ -1907,7 +1907,7 @@ gdjs.World1Level3Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColl
 }if ( gdjs.World1Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level3Code.conditionTrue_1 = gdjs.World1Level3Code.condition1IsTrue_0;
-gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13503908);
+gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17736684);
 }
 }}
 if (gdjs.World1Level3Code.condition1IsTrue_0.val) {
@@ -2417,7 +2417,7 @@ for(var i = 0, k = 0, l = gdjs.World1Level3Code.GDCoinCounterObjects1.length;i<l
 gdjs.World1Level3Code.GDCoinCounterObjects1.length = k;}if ( gdjs.World1Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level3Code.conditionTrue_1 = gdjs.World1Level3Code.condition1IsTrue_0;
-gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25663620);
+gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17411716);
 }
 }}
 if (gdjs.World1Level3Code.condition1IsTrue_0.val) {
@@ -2551,7 +2551,7 @@ gdjs.World1Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.World1Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level3Code.conditionTrue_1 = gdjs.World1Level3Code.condition1IsTrue_0;
-gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507516);
+gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17861332);
 }
 }}
 if (gdjs.World1Level3Code.condition1IsTrue_0.val) {
@@ -2572,7 +2572,7 @@ gdjs.World1Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.World1Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level3Code.conditionTrue_1 = gdjs.World1Level3Code.condition1IsTrue_0;
-gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507908);
+gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17860628);
 }
 }}
 if (gdjs.World1Level3Code.condition1IsTrue_0.val) {
@@ -2612,7 +2612,7 @@ gdjs.World1Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.World1Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.World1Level3Code.conditionTrue_1 = gdjs.World1Level3Code.condition1IsTrue_0;
-gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21510524);
+gdjs.World1Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17396036);
 }
 }}
 if (gdjs.World1Level3Code.condition1IsTrue_0.val) {

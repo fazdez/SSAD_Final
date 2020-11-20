@@ -541,7 +541,7 @@ gdjs.DesertLevel1Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 gdjs.DesertLevel1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition0IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13501484);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17704332);
 }
 }if (gdjs.DesertLevel1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.DesertLevel1Code.GDCoinCounterObjects2);
@@ -590,7 +590,7 @@ for(var i = 0, len = gdjs.DesertLevel1Code.GDWarriorType4Objects2.length ;i < le
 gdjs.DesertLevel1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition0IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25641492);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17740236);
 }
 }if (gdjs.DesertLevel1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.DesertLevel1Code.GDCoinCounterObjects1);
@@ -630,7 +630,7 @@ for(var i = 0, len = gdjs.DesertLevel1Code.GDWarriorType4Objects1.length ;i < le
 gdjs.DesertLevel1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition0IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25644860);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17781508);
 }
 }if (gdjs.DesertLevel1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.DesertLevel1Code.GDCoinCounterObjects1);
@@ -719,7 +719,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.DesertLevel1Code.GDPlayer
 gdjs.DesertLevel1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition0IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25660852);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17359364);
 }
 }if (gdjs.DesertLevel1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.DesertLevel1Code.GDCoinCounterObjects1);
@@ -824,7 +824,7 @@ for(var i = 0, len = gdjs.DesertLevel1Code.GDFlyObjects1.length ;i < len;++i) {
 gdjs.DesertLevel1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition0IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(27016012);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13785700);
 }
 }if (gdjs.DesertLevel1Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.DesertLevel1Code.GDCheckpointW1L1Objects1, gdjs.DesertLevel1Code.GDCheckpointW1L1Objects2);
@@ -975,7 +975,7 @@ for(var i = 0, len = gdjs.DesertLevel1Code.GDWarriorType4Objects1.length ;i < le
 gdjs.DesertLevel1Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition0IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20358692);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14344108);
 }
 }if (gdjs.DesertLevel1Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Slipsand Galaxy - Super Mario Galaxy 2.mp3", 1, false, 100, 1);
@@ -1720,7 +1720,7 @@ gdjs.DesertLevel1Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.DesertLevel1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition1IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507516);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17861332);
 }
 }}
 if (gdjs.DesertLevel1Code.condition1IsTrue_0.val) {
@@ -1741,7 +1741,7 @@ gdjs.DesertLevel1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.DesertLevel1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition1IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507908);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17860628);
 }
 }}
 if (gdjs.DesertLevel1Code.condition1IsTrue_0.val) {
@@ -1781,7 +1781,7 @@ gdjs.DesertLevel1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.DesertLevel1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition1IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21510524);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17396036);
 }
 }}
 if (gdjs.DesertLevel1Code.condition1IsTrue_0.val) {
@@ -2020,7 +2020,7 @@ gdjs.DesertLevel1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColl
 }if ( gdjs.DesertLevel1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition1IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13514540);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17725740);
 }
 }}
 if (gdjs.DesertLevel1Code.condition1IsTrue_0.val) {
@@ -2107,7 +2107,7 @@ gdjs.DesertLevel1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColl
 }if ( gdjs.DesertLevel1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition1IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13503908);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17736684);
 }
 }}
 if (gdjs.DesertLevel1Code.condition1IsTrue_0.val) {
@@ -2617,7 +2617,7 @@ for(var i = 0, k = 0, l = gdjs.DesertLevel1Code.GDCoinCounterObjects1.length;i<l
 gdjs.DesertLevel1Code.GDCoinCounterObjects1.length = k;}if ( gdjs.DesertLevel1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition1IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25663620);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17411716);
 }
 }}
 if (gdjs.DesertLevel1Code.condition1IsTrue_0.val) {
@@ -2909,7 +2909,7 @@ gdjs.DesertLevel1Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.DesertLevel1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition1IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507517);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17861333);
 }
 }}
 if (gdjs.DesertLevel1Code.condition1IsTrue_0.val) {
@@ -2930,7 +2930,7 @@ gdjs.DesertLevel1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.DesertLevel1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition1IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507909);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17860629);
 }
 }}
 if (gdjs.DesertLevel1Code.condition1IsTrue_0.val) {
@@ -2970,7 +2970,7 @@ gdjs.DesertLevel1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.DesertLevel1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel1Code.conditionTrue_1 = gdjs.DesertLevel1Code.condition1IsTrue_0;
-gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21510525);
+gdjs.DesertLevel1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17396037);
 }
 }}
 if (gdjs.DesertLevel1Code.condition1IsTrue_0.val) {

@@ -574,7 +574,7 @@ gdjs.DesertLevel3Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 gdjs.DesertLevel3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition0IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13501484);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17704332);
 }
 }if (gdjs.DesertLevel3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.DesertLevel3Code.GDCoinCounterObjects2);
@@ -623,7 +623,7 @@ for(var i = 0, len = gdjs.DesertLevel3Code.GDWarriorType4Objects2.length ;i < le
 gdjs.DesertLevel3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition0IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25641492);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17740236);
 }
 }if (gdjs.DesertLevel3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.DesertLevel3Code.GDCoinCounterObjects1);
@@ -663,7 +663,7 @@ for(var i = 0, len = gdjs.DesertLevel3Code.GDWarriorType4Objects1.length ;i < le
 gdjs.DesertLevel3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition0IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25644860);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17781508);
 }
 }if (gdjs.DesertLevel3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.DesertLevel3Code.GDCoinCounterObjects1);
@@ -752,7 +752,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.DesertLevel3Code.GDPlayer
 gdjs.DesertLevel3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition0IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25660852);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17359364);
 }
 }if (gdjs.DesertLevel3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("CoinCounter"), gdjs.DesertLevel3Code.GDCoinCounterObjects1);
@@ -857,7 +857,7 @@ for(var i = 0, len = gdjs.DesertLevel3Code.GDFlyObjects1.length ;i < len;++i) {
 gdjs.DesertLevel3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition0IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12730044);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13823820);
 }
 }if (gdjs.DesertLevel3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.DesertLevel3Code.GDCheckpointW1L1Objects1, gdjs.DesertLevel3Code.GDCheckpointW1L1Objects2);
@@ -1807,7 +1807,7 @@ gdjs.DesertLevel3Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.DesertLevel3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition1IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507516);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17861332);
 }
 }}
 if (gdjs.DesertLevel3Code.condition1IsTrue_0.val) {
@@ -1828,7 +1828,7 @@ gdjs.DesertLevel3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.DesertLevel3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition1IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507908);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17860628);
 }
 }}
 if (gdjs.DesertLevel3Code.condition1IsTrue_0.val) {
@@ -1868,7 +1868,7 @@ gdjs.DesertLevel3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.DesertLevel3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition1IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21510524);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17396036);
 }
 }}
 if (gdjs.DesertLevel3Code.condition1IsTrue_0.val) {
@@ -2107,7 +2107,7 @@ gdjs.DesertLevel3Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColl
 }if ( gdjs.DesertLevel3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition1IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13514540);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17725740);
 }
 }}
 if (gdjs.DesertLevel3Code.condition1IsTrue_0.val) {
@@ -2194,7 +2194,7 @@ gdjs.DesertLevel3Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColl
 }if ( gdjs.DesertLevel3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition1IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13503908);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17736684);
 }
 }}
 if (gdjs.DesertLevel3Code.condition1IsTrue_0.val) {
@@ -2704,7 +2704,7 @@ for(var i = 0, k = 0, l = gdjs.DesertLevel3Code.GDCoinCounterObjects1.length;i<l
 gdjs.DesertLevel3Code.GDCoinCounterObjects1.length = k;}if ( gdjs.DesertLevel3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition1IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(25663620);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17411716);
 }
 }}
 if (gdjs.DesertLevel3Code.condition1IsTrue_0.val) {
@@ -2855,7 +2855,7 @@ gdjs.copyArray(runtimeScene.getObjects("invisiblewall"), gdjs.DesertLevel3Code.G
 gdjs.DesertLevel3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition0IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13133500);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14320140);
 }
 }if (gdjs.DesertLevel3Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "tower_power_pokey_battle_paper_mario_sticker_star_music_extended_hd_-5197800235644751752.mp3", 1, false, 100, 1);
@@ -3059,7 +3059,7 @@ gdjs.DesertLevel3Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(
 }if ( gdjs.DesertLevel3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition1IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507517);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17861333);
 }
 }}
 if (gdjs.DesertLevel3Code.condition1IsTrue_0.val) {
@@ -3080,7 +3080,7 @@ gdjs.DesertLevel3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.DesertLevel3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition1IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21507909);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17860629);
 }
 }}
 if (gdjs.DesertLevel3Code.condition1IsTrue_0.val) {
@@ -3120,7 +3120,7 @@ gdjs.DesertLevel3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.DesertLevel3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.DesertLevel3Code.conditionTrue_1 = gdjs.DesertLevel3Code.condition1IsTrue_0;
-gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21510525);
+gdjs.DesertLevel3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17396037);
 }
 }}
 if (gdjs.DesertLevel3Code.condition1IsTrue_0.val) {
