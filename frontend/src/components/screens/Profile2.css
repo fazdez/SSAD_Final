@@ -1,0 +1,67 @@
+.box {
+  margin: 50px auto;
+  width: 70%;
+  box-shadow: 5px 10px 10px 6px lightgrey;
+  height: 350px;
+  background-color: lightyellow;
+  padding: 50px;
+}
+.innerBox {
+  height: 100%;
+  display: flex;
+}
+.profileInfo {
+  border-right: 1px solid black;
+  height: 100%;
+  width: 75%;
+}
+
+.profileImage {
+  margin-left: 25px;
+  margin-right: 0px;
+  position: absolute;
+  right: 200px;
+}
+
+.profileAvatar {
+  margin-top: 70px;
+}
+
+.account-info {
+  margin-right: 90px !important;
+  border-right: 1px solid grey;
+  padding-right: 20px;
+  width: 50%;
+}
+
+.acc {
+  margin-top: 5% !important;
+}
+
+.tableview {
+  padding-right: 30px;
+  margin-top: 5px !important;
+}
+.hideButton {
+  visibility: hidden;
+}
+#simple-tbp-0,
+#simple-tbp-1,
+#simple-tbp-2 {
+  height: 80%;
+  margin-top: 10px;
+}
+
+.prominentButton {
+  background-color: gainsboro !important;
+  margin: 20px auto !important;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+em {
+  color: grey;
+}

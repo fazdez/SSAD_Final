@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'EBit';
+    src: local('EBit'), url(./assets/fonts/8-BIT\ WONDER.TTF) format('truetype');
+  }
+
+@font-face {
+    font-family: 'Mario';
+    src: local('Mario'), url(./assets/fonts/NineteenNinetySeven-11XB.ttf) format('truetype');
+}
