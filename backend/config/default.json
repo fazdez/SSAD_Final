@@ -1,0 +1,7 @@
+{
+  "name": "SSAD Project",
+  "db": {
+    "uri": "mongodb://localhost/ssadProject"
+  },
+  "jwtPrivateKey": "Tobedetermined"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SSAD Project - Production",
+  "db": {
+    "uri": "mongodb+srv://fazirul001:rWvpw73EvrPjnr6@ssadproject.58svf.mongodb.net/development?retryWrites=true&w=majority"
+  }
+}

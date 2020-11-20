@@ -1,0 +1,90 @@
+.whole {
+  padding: 0px;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: 400px;
+  height: auto;
+}
+
+.whole .title1 {
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  min-width: 900px;
+  height: auto;
+}
+
+.whole .link {
+  margin-top: 2%;
+  margin-left: 12.5%;
+  margin-right: 10%;
+  height: auto;
+}
+
+.whole .rules {
+  margin-top: 2%;
+  margin-left: 12.5%;
+  margin-right: 10%;
+  height: auto;
+}
+
+.whole .general_rules {
+  margin-top: 2%;
+  margin-left: 12.5%;
+  margin-right: 10%;
+  height: auto;
+}
+
+.whole .general_rules .home img {
+  display: block;
+  border-radius: 10px;
+  border: 2px solid #c9c9c9;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 80%;
+}
+
+.whole .rules .arrow_img img {
+  display: block;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+.whole .rules .space_img img {
+  display: block;
+  float: left;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: auto;
+}
+
+#topBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: linear-gradient(
+    to right,
+    #91cbff,
+    #cddeff
+  ); /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#topBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
