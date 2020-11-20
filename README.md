@@ -41,11 +41,15 @@ This will run the web application on port 3000. The website should automatically
 ### 1) User Types
 To log in, you can simply create an account through the website. However, there are three types of users available: admins, teachers and students. 
 Instead of creating an account, you may use the following admin account available:
+
 username: admin
+
 password: 12345678
 
 You may also use the following teacher account:
+
 username: MrTeacher
+
 password: 12345678
 
 ### 2) Data points
