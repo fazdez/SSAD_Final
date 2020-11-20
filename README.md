@@ -14,6 +14,7 @@ Open up Command Prompt (for Windows) or Terminal (for Mac) and run the following
 $ npm install
 ```
 This will download all the dependencies required for the backend to run. There will be a new folder "node_modules" created within the backend folder.
+
 3) execute
 ```sh
 $ node index.js
@@ -28,6 +29,7 @@ Open up a new Command Prompt (for Windows) or Terminal (for Mac) and run the fol
 $ npm install
 ```
 This will download all the dependencies required for the React webapp to run. There will be a new folder "node_modules" created within the frontend folder.
+
 3) execute
 ```sh
 $ npm start
